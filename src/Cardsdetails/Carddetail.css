@@ -1,0 +1,93 @@
+.carddetailsmain{
+    height: 90vh;
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(253,75,29,1) 48%, rgba(252,176,69,1) 100%); */
+    /* background-color: rgba(50, 115, 220, 0.3); */
+   background: linear-gradient(to top, rgb(1, 1, 150),rgb(155, 155, 248));
+
+   
+}
+.carddetailsmain h1{
+    text-align: center;
+    letter-spacing: 1px;
+    /* margin-top: 10px; */
+}
+.carddetails{
+    /* margin-top: 10px; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+   
+}
+.carddetailimg img{
+height: 450px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 1px solid #000;
+  margin-top: 15px;
+  /* mix-blend-mode: color-dodge; */
+ 
+}
+
+.carddetailsdesc{
+    margin-top: 100px;
+    line-height: 50px;
+    margin-left: 13px;
+   
+}
+.carddetailsdesc .second-color{
+    margin-top: 5px;
+    margin: 0;
+    
+}
+.second-color i{
+    font-size: 18px;
+    margin-left: 8px;
+}
+.first-color{
+    color: #000;
+    background-color: #fff;
+}
+.btn2 .second-color{
+    margin-left: 15px;
+   
+}
+.carddetailsdesc{
+    position: relative;
+}
+.btn2{
+    margin-top: 50px;
+}
+.quant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 35%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.quant span{
+    font-size: 25px;
+   font-weight: 500;
+}
+.carddetailsdesc{
+    margin-left: 25px;
+}
+.quant{
+    margin-top: 43px;
+}
+.quant{
+    background: #fff;
+    color: #000;
+}

@@ -1,0 +1,286 @@
+body{
+    color: rgb(177, 99, 3);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    /* grid-template-rows: 180px 180px 180px 180px; */
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    background: #fff;
+    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Salsa', cursive; */
+ 
+}
+ .img img{
+    width: 100%;
+    border-radius: 8px;
+    /* mix-blend-mode: soft-light;   */
+    transition: 0.5s;
+ 
+}
+.img img:hover{
+    transform: scale(1.06);
+    /* box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5); */
+  
+}
+.desc{
+    margin-top: 10px;
+}
+.baner-img img{
+cursor: pointer;
+    height: 400px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+.baner-img h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.card{
+    /* box-shadow: 0 0 5px 8px rgba(0, 0, 0, 0.07); */
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(186, 185, 185);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+
+}
+
+p{
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ .btn button{
+    margin-top: 8px;
+}
+.first-color{
+    background-color: transparent;
+    padding: 15px 18px;
+    border: 1px solid #000;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: 1s;
+
+}
+.second-color{
+    background-color: transparent;
+    padding: 15px 18px;
+    border: 1px solid #000;
+    background: #000;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 8px;
+    transition: 1s;
+
+
+}
+.second-color:hover{
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    color: #000;
+}
+.first-color:hover{
+    border: 1px solid darkblue;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.fa-cart-plus{
+    font-size: 19px;
+    margin-left: 3px;
+}
+.fa-bag-shopping{
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.supprot{
+    line-height: 35px;
+}
+.supprot h4{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: lightgray;
+    cursor: pointer;
+}
+.supprot h2{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.faq{
+    line-height: 40px;
+}
+.faq h4{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: lightgray;
+    cursor: pointer;
+}
+.faq h2{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.about{
+    line-height: 33px;
+}
+
+.about h4{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: lightgray;
+    cursor: pointer;
+}
+.about h2{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+
+.stay-update{
+    line-height: 70px;
+}
+.stay-update h2{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.iconses i{
+    font-size: 31px;
+    margin-left: 25px;   
+}
+.puma-logo{
+  margin-top: 10px;
+    /* width: 100%; */
+}
+.puma-logo img{
+    height: 70px;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 12px;
+    
+}
+
+.first-color i{
+font-size: 18px;
+}
+
+.gif img{
+    height: 300px;
+   
+}
+.gif{
+    height: 300px;
+    background: #1a1a1a;
+}
+
+.maincard{
+    height: 450px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 25px;
+}
+
+.images-sections img{
+    border-radius: 10px;
+    height: 410px;
+    width: 100%;
+    /* mix-blend-mode: darken; */
+    /* width: 60%; */
+    cursor: pointer;
+}
+.tex-sections{
+    border-radius: 8px;
+    width:45%;
+    background:rgba(0 , 0, 0, 0.3);
+    margin-top: 15px;
+    text-align: center;
+    /* color: #fff; */
+}
+.tex-sections h1{
+
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+
+.tex-sections button{
+    margin-top: 30px;
+   padding: 20px 30px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.tex-sections .flat{
+    cursor: pointer;
+    color: red;
+}
+.our-products{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.tex-sections{
+    background-color: rgb(245, 210, 144);
+    /* color: white; */
+}
+.desc h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hoesname{
+    color:#000 ;
+}
+.price{
+    color: #000;
+}
+
+@media (max-width:400px) {
+    .grid{
+    grid-template-columns:repeat(1,95%);
+    }
+}
+
+@media (max-width:500px) {
+    .grid{
+    grid-template-columns:repeat(2,45%);
+    }
+}
+
+@media (max-width:850px) {
+    .grid{
+    grid-template-columns:repeat(3,30%);
+    }
+}
+
+
